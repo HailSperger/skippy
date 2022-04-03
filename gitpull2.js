@@ -5,4 +5,5 @@ export async function main(ns) {
   await ns.wget(BASEURL + "weaken.js", "/skippy/weaken.js");
   await ns.wget(BASEURL + "grow.js", "/skippy/grow.js");
   await ns.wget(BASEURL + "hack.js", "/skippy/hack.js");
+	await ns.wget(BASEURL + "serverlist.js", "/skippy/serverlist.js");
 }
